@@ -1,0 +1,1 @@
+typeof document<"u"&&document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelector(".header");e&&(e.style.opacity="0",e.style.transform="translateY(-10px)",e.style.transition="opacity 0.3s ease, transform 0.3s ease",setTimeout(()=>{e.style.opacity="1",e.style.transform="translateY(0)"},100),console.log("✅ Header initialized"))});
